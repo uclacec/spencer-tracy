@@ -64,10 +64,21 @@ header {
     background: #000000;
     padding: 100px 0;
     color: white;
+    text-align: center;
 }
-header h2 {
+
+#title {
+	font-family: serif;
+	font-size: 5em;
+}
+#winner {
     text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 2em;
+    margin-top: 1em;
 }
+
+
 section#info {
     background: #ffffff url(spencer_tracy_03.png) 0 0 / 100% no-repeat;
     padding: 100px 0 400px 0;
@@ -75,6 +86,9 @@ section#info {
 section#info #location span {
     text-transform: uppercase;
     display: block;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
 }
 section#recipient {
     background-color: #ffffff;
