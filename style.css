@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family:'Roboto',sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -51,7 +52,7 @@ table {
 
 
 /* Spencer Tracy stylesheet */
-
+.container{padding:0 5% 0 5%;}
 .pink-line {
 	width: 2px;
 	height: 150px;
@@ -67,21 +68,22 @@ header {
     text-align: center;
 }
 
-#title {
+.title {
 	font-family: serif;
 	font-size: 5em;
+	text-align:center;
 }
 #winner {
     text-transform: uppercase;
-    font-family: sans-serif;
     font-size: 2em;
     margin-top: 1em;
+	font-weight:600;
 }
 
 
 section#info {
     background: #ffffff url(spencer_tracy_03.png) 0 0 / 100% no-repeat;
-    padding: 100px 0 400px 0;
+    padding: 100px 0 100px 0;
 }
 section#info #location span {
     text-transform: uppercase;
@@ -90,13 +92,22 @@ section#info #location span {
     color: white;
     font-family: sans-serif;
 }
+#blurb, section#recipient, section#tracy{
+	padding-left: 5%;
+	padding-right:5%;
+	line-height:1.5!important;
+}
+section#info #blurb{
+	width:28vw;
+	line-height:1.5;
+}
 section#recipient {
     background-color: #ffffff;
-    padding: 100px 0;
+    padding-top: 100px;
 }
 section#tracy {
 	background: #f3f3f3 url(spencer_tracy_05.png) 0 0 / 100% no-repeat;
-    padding: 300px 0;
+    padding-top: 300px;
 }
 footer {
 	background: #000000 url(spencer_tracy_06.png) 0 0 / 100% no-repeat;
