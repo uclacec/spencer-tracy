@@ -83,7 +83,7 @@ header {
 
 section#info {
     background: #ffffff url(spencer_tracy_03.png) 0 0 / 100% no-repeat;
-    padding: 100px 0 100px 0;
+    padding: 100px 0 220px 0;
 }
 section#info #location span {
     text-transform: uppercase;
@@ -97,10 +97,7 @@ section#info #location span {
 	padding-right:5%;
 	line-height:1.5!important;
 }
-section#info #blurb{
-	width:28vw;
-	line-height:1.5;
-}
+section#info #blurb{  line-height:1.5;  }
 section#recipient {
     background-color: #ffffff;
     padding-top: 100px;
