@@ -52,7 +52,24 @@ table {
 
 
 /* Spencer Tracy stylesheet */
-.container{padding:0 5% 0 5%;}
+.container-fluid { padding: 0; }
+.row { margin: 0; }
+
+header, section, footer {
+	padding: 0 7%;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+	margin-bottom: 0.4em;
+	font-family: serif;
+}
+h2 {
+	font-family: serif;
+    font-size: 2em;
+}
+
 .pink-line {
 	width: 2px;
 	height: 150px;
@@ -67,23 +84,16 @@ header {
     color: white;
     text-align: center;
 }
-
-.title {
-	font-family: serif;
-	font-size: 5em;
-	text-align:center;
-}
-#winner {
+header h2 {
     text-transform: uppercase;
-    font-size: 2em;
-    margin-top: 1em;
-	font-weight:600;
+	font-family: sans-serif;
+	font-weight: 600;
 }
 
 
 section#info {
     background: #ffffff url(spencer_tracy_03.png) 0 0 / 100% no-repeat;
-    padding: 100px 0 220px 0;
+    padding: 100px 0 100px 0;
 }
 section#info #location span {
     text-transform: uppercase;
@@ -92,12 +102,9 @@ section#info #location span {
     color: white;
     font-family: sans-serif;
 }
-#blurb, section#recipient, section#tracy{
-	padding-left: 5%;
-	padding-right:5%;
-	line-height:1.5!important;
+.blurb {
+	line-height: 1.5;
 }
-section#info #blurb{  line-height:1.5;  }
 section#recipient {
     background-color: #ffffff;
     padding-top: 100px;
@@ -106,8 +113,14 @@ section#tracy {
 	background: #f3f3f3 url(spencer_tracy_05.png) 0 0 / 100% no-repeat;
     padding-top: 300px;
 }
+
+
 footer {
 	background: #000000 url(spencer_tracy_06.png) 0 0 / 100% no-repeat;
     padding: 300px 0;
     color: white;
+}
+footer h2, footer p {
+	text-align: center;
+	margin: 1em 0;
 }
