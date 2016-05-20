@@ -74,8 +74,10 @@ h2 {
 	width: 2px;
 	height: 150px;
 	margin: 0px auto;
-	background-color: #FF6666;
+	background-color: #EE3253;
 	position: relative;
+	margin-top:4vh;
+	margin-bottom:4vh;
 }
 
 header {
@@ -84,16 +86,25 @@ header {
     color: white;
     text-align: center;
 }
-header h2 {
+
+.title {
+	font-family: serif;
+	font-size: 5em;
+	text-align:center;
+}
+#winner {
     text-transform: uppercase;
-	font-family: sans-serif;
-	font-weight: 600;
+    font-size: 1.8em;
+    margin-top: 1em;
+	font-weight:400;
+	letter-spacing: 2px;
+	font-family:Roboto,sans-serif;
 }
 
 
 section#info {
     background: #ffffff url(spencer_tracy_03.png) 0 0 / 100% no-repeat;
-    padding: 100px 0 100px 0;
+    padding: 6vh 0 175px 0;
 }
 section#info #location span {
     text-transform: uppercase;
@@ -113,8 +124,6 @@ section#tracy {
 	background: #f3f3f3 url(spencer_tracy_05.png) 0 0 / 100% no-repeat;
     padding-top: 300px;
 }
-
-
 footer {
 	background: #000000 url(spencer_tracy_06.png) 0 0 / 100% no-repeat;
     padding: 300px 0;
@@ -122,5 +131,5 @@ footer {
 }
 footer h2, footer p {
 	text-align: center;
-	margin: 1em 0;
+	margin: 5px 0;
 }
